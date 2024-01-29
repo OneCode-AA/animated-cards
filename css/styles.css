@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 200px auto;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.card {
+    background-color: aqua;
+    height: 600px;
+    width: 10%;
+    max-width: 1000px;
+    border: 2px solid white;
+    padding: 2px;
+}
+
+
+.html {
+    background-image: url(/images/wp11725616-html-logo-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.html:hover {
+    flex: 3;
+    background-size: cover;
+    /* transition: 4s ease-in-out; */
+}
+
+.css {
+    background-image: url(/images/wp2742433-css-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.css:hover {
+    flex: 3;
+    background-size: cover;
+    /* transition: 4s ease-in-out; */
+}
+
+.git {
+    background-image: url(/images/wp3082278-github-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.git:hover {
+    flex: 3;
+    background-size: cover;
+    /* transition: 4s ease-in-out; */
+}
+
+.js {
+    background-image: url(/images/wp12456163-html-css-javascript-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.js:hover {
+    flex: 2;
+    background-size: cover;
+    /* transition: 4s ease-in-out; */
+}
+
+/* :hover {
+    transition: 4s;
+}
+
+:active {
+    transition: 2s linear;
+} */
